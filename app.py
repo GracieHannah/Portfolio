@@ -1,4 +1,4 @@
- from pathlib import Path
+from pathlib import Path
 
 import pandas as pd
 import plotly.express as px
@@ -124,7 +124,7 @@ PROJECTS = [
         "year": 2026,
         "category": "Product Analytics",
         "tools": ["Python", "NLP", "Customer Insights", "Product Strategy"],
-        "metric": "1,300 reviews",
+        "metric": "1,300 cleaned reviews",
         "summary": "Analyzed cleaned Amazon headphone reviews across eight brands to identify what builds or breaks trust in a premium audio product.",
         "impact": "Recommended stabilizing Solo 4 risk, using Studio Pro as the premium anchor, and concept-testing a comfort-first everyday premium headphone before launch approval.",
         "featured": True,
@@ -336,7 +336,7 @@ with overview_tab:
     with left:
         st.markdown("### What I do")
         st.write(
-            "I’m most interested in the space where technical analysis meets human behavior: "
+            "I’m most interested in the space where technical analysis connects with human behavior: "
             "why customers leave, what changes demand, where a product experience breaks trust, "
             "and which signals are strong enough to act on."
         )
@@ -352,6 +352,7 @@ with overview_tab:
             2. **Understand the behavior.** Look for the pattern behind the metric.
             3. **Build only what helps.** Use the right level of modeling complexity.
             4. **Translate the result.** Make the recommendation usable by a real team.
+            5. **Visualize Data** Display information for non techs to better comprehend. 
             """
         )
 
