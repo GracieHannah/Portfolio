@@ -657,6 +657,7 @@ Before moving into data science, I built experience in environments that require
 - Working as a lifeguard and American Red Cross Water Safety Instructor taught me to remain calm, communicate clearly, plan ahead, and take responsibility for the safety of others.
 
 - Managing a spa and leading a team of a dozen therapists, then ultimately building and running my own wellness business, strengthened my ability to solve problems, lead, adapt, and perform under pressure.""")
+            st.markdown("#### Education")
             st.caption("Certified Data Scientist · Machine Learning & Applied Analytics · Associate of Arts with coursework in graphic design, psychology, and sociology · Human anatomy study in the Washington State University cadaver lab")
 
         with st.expander("Business + technical experience"):
