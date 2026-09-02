@@ -646,6 +646,9 @@ with about_tab:
         )
     with right:
         st.markdown("### About Moi")
+        about_photo = asset_path("about_moi.jpeg")
+        if about_photo:
+            st.image(str(about_photo), width="stretch")
 
         with st.expander("My path"):
             st.write("""My path into data science has not been traditional, but that is also one of the things I value most about it. It has given me a strong foundation in tenacity, resilience, empathy, logic, and adaptability. I’m naturally curious, resourceful, and someone who tends to ask a lot of questions 😅. I take feedback well, pivot quickly, and stay calm when things get complicated.
