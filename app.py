@@ -657,13 +657,13 @@ with about_tab:
             st.write("""My path into data science has not been traditional, but that is also one of the things I value most about it. It has given me a strong foundation in tenacity, resilience, empathy, logic, and adaptability. I’m naturally curious, resourceful, and someone who tends to ask a lot of “why?” questions. I take feedback well, pivot quickly, and stay calm when things get complicated.
 
 Before moving into data science, I built experience in environments that required focus, responsibility, and clear thinking. From studying human anatomy in the Washington State University cadaver lab to running my own business, those experiences taught me how to observe carefully, solve problems, communicate clearly, and perform under pressure.""")
-            st.caption("Certified Data Scientist · Machine Learning & Applied Analytics · Associates: Graphic Design | Pyschology/Sociology  ·  Washington State University Human Anatomy Cadaver Laboratories")
+            st.caption("Certified Data Scientist · Machine Learning & Applied Analytics · Associate of Arts with coursework in graphic design, psychology, and sociology · Human anatomy study in the Washington State University cadaver lab")
 
         with st.expander("Business + technical experience"):
             st.write("""Today, I combine technical data science skills with more than 10 years of experience in business operations, customer behavior, marketing, retention, and revenue optimization. My work includes machine learning, exploratory data analysis, predictive modeling, experimentation, and business strategy, with projects spanning classification, regression, time-series forecasting, computer vision, NLP, and business analytics.
 
 I work with Python, SQL, scikit-learn, TensorFlow/Keras, CatBoost, LightGBM, XGBoost, Tableau, Matplotlib, and other analytical tools. Just as importantly, I know how to take technical findings and turn them into clear, useful recommendations for the people making decisions.""")
-            st.caption("Beats by Dre consumer insights externship · Business founder and owner · Spa Manager: operations and customer experience · Always learning and building 😊")
+            st.caption("Beats by Dre consumer insights externship · Founder and business owner · Spa management, operations, and customer experience · Always learning and building 😊")
 
         with st.expander("How I think about data"):
             st.write("""I see data as more than numbers. It is a way to understand people, uncover patterns, identify opportunities, solve problems, and make better decisions. I’m especially interested in work where data can improve products, customer experiences, business performance, and real-world outcomes.
@@ -671,8 +671,7 @@ I work with Python, SQL, scikit-learn, TensorFlow/Keras, CatBoost, LightGBM, XGB
 I bring a combination of business ownership, technical training, customer insight, creativity, and strong communication and presentation skills that does not fit neatly into a single job title. When I encounter something I do not know yet, I am resourceful enough to learn quickly, ask the right questions, and figure it out.""")
 
         with st.expander("Outside the notebook"):
-            st.write("""Outside of work, I’m a mom of four who feels most at home in the mountains. I love hiking, camping, snowboarding, photography, music, creative projects, and finding new adventures with my family. Those parts of my life keep me grounded, curious, and comfortable balancing structure with a little bit of chaos.""")
-            st.caption("Mountains, music, snowboarding❤️, camping, surfing & waves😍, backpacking, creative projects, and my rad family life to keep me curious and adaptable.")
+            st.write("""Outside of work, I’m a mom of four who feels most at home in the mountains or near the water. I love hiking, camping, backpacking, snowboarding, surfing, photography, music, creative projects, and finding new adventures with my rad family. Those parts of my life keep me grounded, curious, adaptable, and comfortable balancing structure with a little bit of chaos.""")
 
     st.markdown("### Let’s build something useful")
     contact_cols = st.columns(3)
