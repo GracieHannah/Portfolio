@@ -646,17 +646,11 @@ with about_tab:
         )
     with right:
         st.markdown("### About Moi")
-        st.markdown(
-            '<span class="tag">Python</span><span class="tag">SQL</span><span class="tag">Machine Learning</span>'
-            '<span class="tag">NLP</span><span class="tag">Forecasting</span><span class="tag">Computer Vision</span>'
-            '<span class="tag">Tableau</span><span class="tag">Streamlit</span>',
-            unsafe_allow_html=True,
-        )
 
         with st.expander("My path"):
-            st.write("""My path into data science has not been traditional, but that is also one of the things I value most about it. It has given me a strong foundation in tenacity, resilience, empathy, logic, and adaptability. I’m naturally curious, resourceful, and someone who tends to ask a lot of “why?” questions. I take feedback well, pivot quickly, and stay calm when things get complicated.
+            st.write("""My path into data science has not been traditional, but that is also one of the things I value most about it. It has given me a strong foundation in tenacity, resilience, empathy, logic, and adaptability. I’m naturally curious, resourceful, and someone who tends to ask a lot of questions 😅. I take feedback well, pivot quickly, and stay calm when things get complicated.
 
-Before moving into data science, I built experience in environments that required focus, responsibility, and clear thinking. From studying human anatomy in the Washington State University cadaver lab to running my own business, those experiences taught me how to observe carefully, solve problems, communicate clearly, and perform under pressure.""")
+Before moving into data science, I built experience in environments that required focus, responsibility, and clear thinking. From studying human anatomy in the Washington State University cadaver lab to managing a spa along with a dozen other therapists, to running my own business, those experiences taught me how to observe carefully, solve problems, communicate clearly, and perform under pressure.""")
             st.caption("Certified Data Scientist · Machine Learning & Applied Analytics · Associate of Arts with coursework in graphic design, psychology, and sociology · Human anatomy study in the Washington State University cadaver lab")
 
         with st.expander("Business + technical experience"):
@@ -670,6 +664,12 @@ I work with Python, SQL, scikit-learn, TensorFlow/Keras, CatBoost, LightGBM, XGB
 
 I bring a combination of business ownership, technical training, customer insight, creativity, and strong communication and presentation skills that does not fit neatly into a single job title. When I encounter something I do not know yet, I am resourceful enough to learn quickly, ask the right questions, and figure it out.""")
 
+        st.markdown(
+            '<span class="tag">Python</span><span class="tag">SQL</span><span class="tag">Machine Learning</span>'
+            '<span class="tag">NLP</span><span class="tag">Forecasting</span><span class="tag">Computer Vision</span>'
+            '<span class="tag">Tableau</span><span class="tag">Streamlit</span>',
+            unsafe_allow_html=True,
+        )
         st.markdown("### Outside the notebook")
         st.markdown(
             """
