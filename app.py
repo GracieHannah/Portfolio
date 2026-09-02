@@ -503,7 +503,7 @@ with beats_tab:
     beats_metrics[2].metric("Beats reviews", "499")
     beats_metrics[3].metric("Positive", "432")
 
-    view = st.radio("Explore", ["Product comparison", "Loyalty drivers", "Trust breakers", "Launch path"], horizontal=True)
+    view = st.radio("Explore", ["Loyalty drivers", "Trust breakers", "Launch path", "Product comparison"], horizontal=True)
 
     if view == "Product comparison":
         product = st.selectbox("Product", BEATS_PRODUCTS["Product"].tolist())
