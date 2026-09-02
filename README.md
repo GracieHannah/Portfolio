@@ -1,5 +1,7 @@
 # Gracie Schmidt — Interactive Data Science Portfolio
 
+[🌈 View the live interactive portfolio](https://graciehannah-portfolio.streamlit.app/)
+
 I designed this portfolio to bring my projects together in one place and make the thinking behind the work easy to explore. The common thread across the projects is translating technical analysis into a decision that matters for a customer, product, or business.
 
 ## What you can explore
