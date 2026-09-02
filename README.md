@@ -58,4 +58,4 @@ The portfolio also highlights telecom churn modeling, taxi-demand forecasting, c
 
 ---
 
-Designed and maintained by **Gracie Schmidt**. Built with Python, Streamlit, Pandas, and Plotly.
+Designed and maintained by **Gracie Schmidt**. Built with Python, Streamlit, Pandas, and Plotly 🤙
