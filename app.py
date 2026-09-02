@@ -646,14 +646,14 @@ with about_tab:
         )
     with right:
         st.markdown("### About Moi")
-        st.write(" My path into data science has not been traditional, but that is also one of the things I value most about it. It has given me a strong foundation in tenacity, resilience, empathy, logic, and adaptability. I’m naturally curious, resourceful, and someone who tends to ask a lot of “why?” questions. I take feedback well, pivot quickly, and stay calm when things get complicated.
+        st.write("""My path into data science has not been traditional, but that is also one of the things I value most about it. It has given me a strong foundation in tenacity, resilience, empathy, logic, and adaptability. I’m naturally curious, resourceful, and someone who tends to ask a lot of “why?” questions. I take feedback well, pivot quickly, and stay calm when things get complicated.
 Before moving into data science, I built experience in environments that required focus, responsibility, and clear thinking. From studying human anatomy in the Washington State University cadaver lab to running my own business, those experiences taught me how to observe carefully, solve problems, communicate clearly, and perform under pressure.
 Today, I combine technical data science skills with more than 10 years of experience in business operations, customer behavior, marketing, retention, and revenue optimization. My work includes machine learning, exploratory data analysis, predictive modeling, experimentation, and business strategy, with projects spanning classification, regression, time-series forecasting, computer vision, NLP, and business analytics.
 I work with Python, SQL, scikit-learn, TensorFlow/Keras, CatBoost, LightGBM, XGBoost, Tableau, Matplotlib, and other analytical tools. Just as importantly, I know how to take technical findings and turn them into clear, useful recommendations for the people making decisions.
 I see data as more than numbers. It is a way to understand people, uncover patterns, identify opportunities, solve problems, and make better decisions. I’m especially interested in work where data can improve products, customer experiences, business performance, and real-world outcomes.
 I bring a combination of business ownership, technical training, customer insight, creativity, and strong communication and presentation skills that does not fit neatly into a single job title. When I encounter something I do not know yet, I am resourceful enough to learn quickly, ask the right questions, and figure it out.
 Outside of work, I’m a mom of four who feels most at home in the mountains. I love hiking, camping, snowboarding, photography, music, creative projects, and finding new adventures with my family. Those parts of my life keep me grounded, curious, and comfortable balancing structure with a little bit of chaos.
-")
+""")
         st.markdown(
             '<span class="tag">Python</span><span class="tag">SQL</span><span class="tag">Machine Learning</span>'
             '<span class="tag">NLP</span><span class="tag">Forecasting</span><span class="tag">Computer Vision</span>'
