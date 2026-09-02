@@ -379,10 +379,10 @@ st.markdown(
 )
 
 link_cols = st.columns(4)
-link_cols[0].link_button("LinkedIn ↗", LINKEDIN_URL, use_container_width=True)
-link_cols[1].link_button("GitHub ↗", GITHUB_URL, use_container_width=True)
-link_cols[2].link_button("Resume ↗", RESUME_URL, use_container_width=True)
-link_cols[3].link_button("Email ✉", f"mailto:{EMAIL}", use_container_width=True)
+link_cols[0].link_button("LinkedIn ↗", LINKEDIN_URL, width="stretch")
+link_cols[1].link_button("GitHub ↗", GITHUB_URL, width="stretch")
+link_cols[2].link_button("Resume ↗", RESUME_URL, width="stretch")
+link_cols[3].link_button("Email ✉", f"mailto:{EMAIL}", width="stretch")
 
 home_tab, work_tab, beats_tab, spotify_tab, about_tab = st.tabs(
     ["✦ Home", "◌ Project Map", "◉ Beats Lab", "♫ Spotify Lab", "＋ About"]
@@ -409,11 +409,11 @@ with home_tab:
             title="Portfolio mix",
         )
         fig.update_traces(textinfo="label", hovertemplate="%{label}: %{value}<extra></extra>")
-        st.plotly_chart(polish(fig, 390), use_container_width=True)
+        st.plotly_chart(polish(fig, 390), width="stretch")
     with right:
         selected_name = st.selectbox("Explore a project", PROJECT_DF["name"].tolist(), index=0)
         selected = next(p for p in PROJECTS if p["name"] == selected_name)
-        st.plotly_chart(project_radar(selected), use_container_width=True)
+        st.plotly_chart(project_radar(selected), width="stretch")
         st.caption(f"{selected['subtitle']} · {selected['signal']}")
 
     st.markdown('<div class="section-label">Featured</div>', unsafe_allow_html=True)
@@ -471,7 +471,7 @@ with work_tab:
         title=f"{len(filtered)} projects · technical depth vs. business relevance",
     )
     fig.update_traces(textposition="top center", marker=dict(line=dict(width=1, color="rgba(255,255,255,.5)")))
-    st.plotly_chart(polish(fig, 500), use_container_width=True)
+    st.plotly_chart(polish(fig, 500), width="stretch")
 
     if not filtered.empty:
         detail_name = st.selectbox("Open a project", filtered["name"].tolist())
@@ -484,7 +484,7 @@ with work_tab:
                 st.write(detail["summary"])
                 st.markdown("".join(f'<span class="tag">{tool}</span>' for tool in detail["tools"]), unsafe_allow_html=True)
             with chart:
-                st.plotly_chart(project_radar(detail), use_container_width=True)
+                st.plotly_chart(project_radar(detail), width="stretch")
     else:
         st.info("No projects match those filters yet.")
 
@@ -527,11 +527,11 @@ with beats_tab:
             color_discrete_sequence=[CYAN, PINK],
             title="Studio Pro is the anchor; Solo 4 holds the risk",
         )
-        st.plotly_chart(polish(fig), use_container_width=True)
+        st.plotly_chart(polish(fig), width="stretch")
     elif view == "Loyalty drivers":
-        st.plotly_chart(horizontal_bar(BEATS_POSITIVE, "Theme", "Share", "What positive reviewers reward (%)"), use_container_width=True)
+        st.plotly_chart(horizontal_bar(BEATS_POSITIVE, "Theme", "Share", "What positive reviewers reward (%)"), width="stretch")
     elif view == "Trust breakers":
-        st.plotly_chart(horizontal_bar(BEATS_RISKS, "Theme", "Share", "Signals inside low-rated reviews (%)"), use_container_width=True)
+        st.plotly_chart(horizontal_bar(BEATS_RISKS, "Theme", "Share", "Signals inside low-rated reviews (%)"), width="stretch")
     else:
         stage_data = pd.DataFrame(
             {
@@ -552,7 +552,7 @@ with beats_tab:
         )
         fig.update_traces(textposition="inside")
         fig.update_layout(showlegend=False)
-        st.plotly_chart(polish(fig), use_container_width=True)
+        st.plotly_chart(polish(fig), width="stretch")
 
     beats_pdf = asset_path("beats_analysis.pdf", "Beats by Dre Headphones Analysis & Launch Recommendation.pdf")
     if beats_pdf:
@@ -590,7 +590,7 @@ with spotify_tab:
         spotify_title = f"Top artists in {year}"
 
     if chart_type == "Bars":
-        st.plotly_chart(horizontal_bar(spotify_df, "Artist", "Plays", spotify_title), use_container_width=True)
+        st.plotly_chart(horizontal_bar(spotify_df, "Artist", "Plays", spotify_title), width="stretch")
     else:
         fig = px.pie(
             spotify_df,
@@ -601,7 +601,7 @@ with spotify_tab:
             title=spotify_title,
         )
         fig.update_traces(textinfo="label+percent", hovertemplate="%{label}: %{value} plays<extra></extra>")
-        st.plotly_chart(polish(fig, 470), use_container_width=True)
+        st.plotly_chart(polish(fig, 470), width="stretch")
 
     spotify_pdf = asset_path("spotify_analysis.pdf", "Spotify.pdf")
     if spotify_pdf:
@@ -625,7 +625,7 @@ with about_tab:
                 "Depth": [90, 88, 96, 83, 92, 97],
             }
         )
-        st.plotly_chart(horizontal_bar(skills, "Skill", "Depth", "How I bring a problem together"), use_container_width=True)
+        st.plotly_chart(horizontal_bar(skills, "Skill", "Depth", "How I bring a problem together"), width="stretch")
     with right:
         st.markdown("### The short version")
         st.write("More than a decade building a business taught me to see the person behind the metric—and the decision behind the analysis.")
@@ -644,9 +644,9 @@ with about_tab:
 
     st.markdown("### Let’s build something useful")
     contact_cols = st.columns(3)
-    contact_cols[0].link_button("LinkedIn ↗", LINKEDIN_URL, use_container_width=True)
-    contact_cols[1].link_button("GitHub ↗", GITHUB_URL, use_container_width=True)
-    contact_cols[2].link_button("Email ✉", f"mailto:{EMAIL}", use_container_width=True)
+    contact_cols[0].link_button("LinkedIn ↗", LINKEDIN_URL, width="stretch")
+    contact_cols[1].link_button("GitHub ↗", GITHUB_URL, width="stretch")
+    contact_cols[2].link_button("Email ✉", f"mailto:{EMAIL}", width="stretch")
 
 
 st.markdown("<div class='footer'>Built with Streamlit · Portfolio content © Gracie Schmidt</div>", unsafe_allow_html=True)
