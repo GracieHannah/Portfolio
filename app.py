@@ -670,8 +670,16 @@ I work with Python, SQL, scikit-learn, TensorFlow/Keras, CatBoost, LightGBM, XGB
 
 I bring a combination of business ownership, technical training, customer insight, creativity, and strong communication and presentation skills that does not fit neatly into a single job title. When I encounter something I do not know yet, I am resourceful enough to learn quickly, ask the right questions, and figure it out.""")
 
-        with st.expander("Outside the notebook"):
-            st.write("""Outside of work, I’m a mom of four who feels most at home in the mountains or near the water. I love hiking, camping, backpacking, snowboarding, surfing, photography, music, creative projects, and finding new adventures with my rad family. Those parts of my life keep me grounded, curious, adaptable, and comfortable balancing structure with a little bit of chaos.""")
+        st.markdown("### Outside the notebook")
+        st.markdown(
+            """
+            - ❤️ Mom of four with a pretty rad family
+            - 🏂 Most at home in the mountains: snowboarding, hiking, camping, and backpacking
+            - 🏄 Surfing, waves, and any excuse to be near the water 🌊
+            - 📷 Photography, music, and creative projects
+            - 😊 Curious, adaptable, and comfortable balancing structure with a little bit of chaos
+            """
+        )
 
     st.markdown("### Let’s build something useful")
     contact_cols = st.columns(3)
