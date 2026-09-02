@@ -673,11 +673,11 @@ I bring a combination of business ownership, technical training, customer insigh
         st.markdown("### Outside the notebook")
         st.markdown(
             """
-            - ❤️ Mom of four with a pretty rad family
-            - 🏂 Most at home in the mountains: snowboarding, hiking, camping, and backpacking
-            - 🏄 Surfing, waves, and any excuse to be near the water 🌊
-            - 📷 Photography, music, and creative projects
-            - 😊 Curious, adaptable, and comfortable balancing structure with a little bit of chaos
+            - ❤️ Mom (of four rad kids🤘) with an amazing partner/photographer/surfer/snowboarding god/best dad ever!
+            - Most at home in the mountains: ❄️snowboarding🏂, hiking🌲, camping🏕️, and backpacking🏔️
+            - Or on the ocean! 🏄 Surfing, waves, paddling, any water honestly... 🌊 😍
+            -  🩵 💜 Music 💚 🩷 and creative projects, puzzles, anything that attempts to challenge my mind 🤓
+            - Curious, adaptable, and comfortable balancing structure with a bit of chaos 😉
             """
         )
 
