@@ -328,8 +328,9 @@ def polish(fig, height=390):
 
 def horizontal_bar(df, label, value, title):
     data = df.sort_values(value)
+    bar_colors = [COLORS[index % len(COLORS)] for index in range(len(data))]
     fig = px.bar(data, x=value, y=label, orientation="h", text=value, title=title)
-    fig.update_traces(marker=dict(color=COLORS[: len(data)]), textposition="outside", cliponaxis=False)
+    fig.update_traces(marker=dict(color=bar_colors), textposition="outside", cliponaxis=False)
     return polish(fig)
 
 
