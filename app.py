@@ -658,7 +658,7 @@ Before moving into data science, I built experience in environments that require
 
 - Managing a spa and leading a team of a dozen therapists, then ultimately building and running my own wellness business, strengthened my ability to solve problems, lead, adapt, and perform under pressure.""")
             st.markdown("#### Education")
-            st.caption("Certified Data Scientist · Machine Learning & Applied Analytics · Associate of Arts with coursework in graphic design, psychology, and sociology · Human anatomy study in the Washington State University cadaver lab")
+            st.caption("Certified Data Scientist · Machine Learning & Applied Analytics · Associates in graphic design, psychology, and sociology · Human anatomy study in the Washington State University cadaver lab")
 
         with st.expander("Business + technical experience"):
             st.write("""Today, I combine technical data science skills with more than 10 years of experience in business operations, customer behavior, marketing, retention, and revenue optimization. My work includes machine learning, exploratory data analysis, predictive modeling, experimentation, and business strategy, with projects spanning classification, regression, time-series forecasting, computer vision, NLP, and business analytics.
