@@ -348,6 +348,7 @@ def project_radar(project):
         )
     )
     fig.update_layout(
+        title=dict(text="Project strengths", x=0.02, xanchor="left"),
         polar=dict(
             bgcolor="rgba(0,0,0,0)",
             radialaxis=dict(range=[0, 100], showticklabels=False, gridcolor="rgba(255,255,255,.12)"),
