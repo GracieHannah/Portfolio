@@ -650,7 +650,13 @@ with about_tab:
         with st.expander("My path"):
             st.write("""My path into data science has not been traditional, but that is also one of the things I value most about it. It has given me a strong foundation in tenacity, resilience, empathy, logic, and adaptability. I’m naturally curious, resourceful, and someone who tends to ask a lot of questions 😅. I take feedback well, pivot quickly, and stay calm when things get complicated.
 
-Before moving into data science, I built experience in environments that required focus, responsibility, and clear thinking. From studying human anatomy in the Washington State University cadaver lab to managing a spa along with a dozen other therapists, to running my own business, those experiences taught me how to observe carefully, solve problems, communicate clearly, and perform under pressure.""")
+Before moving into data science, I built experience in environments that required focus, responsibility, and clear thinking.
+
+- Studying human anatomy in the Washington State University cadaver lab taught me to observe carefully and pay attention to detail. It also taught me that formaldehyde smells revolting yet, somehow, always seemed to make me hungry 🥴.
+
+- Working as a lifeguard and American Red Cross Water Safety Instructor taught me to remain calm, communicate clearly, plan ahead, and take responsibility for the safety of others.
+
+- Managing a spa and leading a team of a dozen therapists, then ultimately building and running my own wellness business, strengthened my ability to solve problems, lead, adapt, and perform under pressure.""")
             st.caption("Certified Data Scientist · Machine Learning & Applied Analytics · Associate of Arts with coursework in graphic design, psychology, and sociology · Human anatomy study in the Washington State University cadaver lab")
 
         with st.expander("Business + technical experience"):
